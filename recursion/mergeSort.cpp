@@ -6,9 +6,7 @@ void merge(int a[], int s, int e)
 	int i = s;
 	int j = mid + 1;
 	int k = s;
-
 	int temp[100];
-
 	while (i <= mid && j <= e)
 	{
 		if (a[i] < a[j])
